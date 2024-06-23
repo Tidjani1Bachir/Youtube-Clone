@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--!Main Styles For css  -->
+    <link rel="stylesheet" href="Css/styles.css" />
+
+    <!--todo: Renders All Elements Normally  -->
+    <link rel="stylesheet" href="Css/normalize.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.png" />
+        <img class="youtube-logo" src="icons/youtube-logo.png" />
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.png" />
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.png" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.png" />
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.png" />
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.png" />
+          <div class="notifications-count">3</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="channel-pictures/my-channel.jpg"
+        />
+      </div>
+
+    </header>
+    <!--!Start SideBar  -->
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.png" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.png" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.png" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.png" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.png" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.png" />
+        <div>Library</div>
+      </div>
+    </nav>
+    <!--!End SideBar  -->
+    <!--? Videos containers  -->
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-1 (1).png" />
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="Channel-Pictures/channel-1.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, earum veniam accusantium dicta velit in aut quam
+              </p>
+              <p class="video-author">Lorem, ipsum dolor sit  </p>
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.png" />
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="Channel-Pictures/channel-2.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, earum veniam accusantium dicta velit in aut quam</p>
+              <p class="video-author">Lorem, ipsum dolor</p>
+              <p class="video-stats">19M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.jpg"  />
+            <div class="video-time">9:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture profile-picture-2"
+                src="Channel-Pictures/channel-3.jpg" style="width:40px; height:40px;"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Trading startegy For beginner
+              </p>
+              <p class="video-author">Lorem ipsum dolor sit amet</p>
+              <p class="video-stats">12M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.png" />
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="Channel-Pictures/channel-4.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve
+              </p>
+              <p class="video-author">mollitia aliquid quis</p>
+              <p class="video-stats">18M views &#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.png" />
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="Channel-Pictures/channel-5.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="video-author">Math Boy</p>
+              <p class="video-stats">519K views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.png" />
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="Channel-Pictures/channel-6.png"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+               Photos with ai - new !
+              </p>
+              <p class="video-author">Ai for everyone</p>
+              <p class="video-stats">141M views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-7.png"  />
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture profile-picture-2"
+                src="Channel-Pictures/channel-7.jpg" style="width:40px; height:40px;"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                use ai to generate logos !
+              </p>
+              <p class="video-author">Logo Designer</p>
+              <p class="video-stats">141M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.jpg" />
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture profile-picture-2"
+                src="Channel-Pictures/channel-8.jpg" style="width:40px; height:40px;"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                why engineering deserve majoring in              </p>
+              <p class="video-author">engineering lover</p>
+              <p class="video-stats">141M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-9.jpg" />
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture profile-picture-2"
+                src="Channel-Pictures/channel-9.jpg" style="width:40px; height:40px;"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+               what is cyber security             </p>
+              <p class="video-author"> Perspiciatis nulla </p>
+              <p class="video-stats">141M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--? Videos containers  -->
+  </body>
+</html>
